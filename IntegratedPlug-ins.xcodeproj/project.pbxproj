@@ -21,7 +21,7 @@
 		13832AB81DC03C64007BDBDD /* RSDeleteLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 13832AB71DC03C64007BDBDD /* RSDeleteLine.m */; };
 		13832ABD1DC03CF4007BDBDD /* RSCopyLineDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 13832ABC1DC03CF4007BDBDD /* RSCopyLineDown.m */; };
 		13832AC11DC03D94007BDBDD /* RSImportPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 13832AC01DC03D94007BDBDD /* RSImportPackage.m */; };
-		13832AC51DC053D8007BDBDD /* RSPragmaMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 13832AC41DC053D8007BDBDD /* RSPragmaMark.m */; };
+		13E5C5EC1DC07B5700FDB6A3 /* RSPragmaMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E5C5EB1DC07B5700FDB6A3 /* RSPragmaMark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,8 +92,8 @@
 		13832ABC1DC03CF4007BDBDD /* RSCopyLineDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCopyLineDown.m; sourceTree = "<group>"; };
 		13832ABF1DC03D94007BDBDD /* RSImportPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSImportPackage.h; sourceTree = "<group>"; };
 		13832AC01DC03D94007BDBDD /* RSImportPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSImportPackage.m; sourceTree = "<group>"; };
-		13832AC31DC053D8007BDBDD /* RSPragmaMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPragmaMark.h; sourceTree = "<group>"; };
-		13832AC41DC053D8007BDBDD /* RSPragmaMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPragmaMark.m; sourceTree = "<group>"; };
+		13E5C5EA1DC07B5700FDB6A3 /* RSPragmaMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPragmaMark.h; sourceTree = "<group>"; };
+		13E5C5EB1DC07B5700FDB6A3 /* RSPragmaMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPragmaMark.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,7 +206,7 @@
 			children = (
 				13832AAA1DC03914007BDBDD /* SourceEditorCommand.h */,
 				13832AAB1DC03914007BDBDD /* SourceEditorCommand.m */,
-				13832AC21DC05325007BDBDD /* PragmaMark */,
+				13E5C5E91DC07B5700FDB6A3 /* PragmaMark */,
 				13832ABE1DC03D6D007BDBDD /* ImportPackage */,
 				13832ABA1DC03CDD007BDBDD /* CopyLineDown */,
 				13832AB51DC03C15007BDBDD /* DeleteLine */,
@@ -253,11 +253,11 @@
 			path = ImportPackage;
 			sourceTree = "<group>";
 		};
-		13832AC21DC05325007BDBDD /* PragmaMark */ = {
+		13E5C5E91DC07B5700FDB6A3 /* PragmaMark */ = {
 			isa = PBXGroup;
 			children = (
-				13832AC31DC053D8007BDBDD /* RSPragmaMark.h */,
-				13832AC41DC053D8007BDBDD /* RSPragmaMark.m */,
+				13E5C5EA1DC07B5700FDB6A3 /* RSPragmaMark.h */,
+				13E5C5EB1DC07B5700FDB6A3 /* RSPragmaMark.m */,
 			);
 			path = PragmaMark;
 			sourceTree = "<group>";
@@ -460,7 +460,7 @@
 				13832AB81DC03C64007BDBDD /* RSDeleteLine.m in Sources */,
 				13832AC11DC03D94007BDBDD /* RSImportPackage.m in Sources */,
 				13832ABD1DC03CF4007BDBDD /* RSCopyLineDown.m in Sources */,
-				13832AC51DC053D8007BDBDD /* RSPragmaMark.m in Sources */,
+				13E5C5EC1DC07B5700FDB6A3 /* RSPragmaMark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
